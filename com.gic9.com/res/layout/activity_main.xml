@@ -1,0 +1,128 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/back_default_focused_holo_light" 
+    
+    >
+<LinearLayout  
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+ 	android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_weight="2"
+    >
+<LinearLayout  
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/inner"
+    android:layout_marginBottom="@dimen/inner"
+    android:layout_marginLeft="@dimen/inner"
+   
+ 	android:layout_weight="1"
+    
+    >
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_marginTop="@dimen/inner"
+    	android:layout_marginBottom="@dimen/inner"
+    	android:layout_marginLeft="@dimen/inner"
+    	android:layout_marginRight="@dimen/inner"
+        
+        android:layout_weight="1"
+        
+        android:background="@drawable/green_btn_default_holo_light"      
+        
+        android:text="기능1" />
+    </LinearLayout>
+    
+    <LinearLayout  
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/inner"
+    android:layout_marginBottom="@dimen/inner"
+    android:layout_marginLeft="@dimen/inner"
+    android:layout_marginRight="@dimen/inner"
+    android:layout_weight="1"
+    
+    >
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+    	android:layout_marginTop="@dimen/inner"
+    	android:layout_marginBottom="@dimen/inner"
+    	android:layout_marginLeft="@dimen/inner"
+    	android:layout_marginRight="@dimen/inner"
+        android:layout_weight="1"
+        
+        android:background="@drawable/pink_btn_default_holo_light"      
+        
+        android:text="기능2" 
+        
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     	
+     	android:layout_marginTop="@dimen/inner"
+    	android:layout_marginBottom="@dimen/inner"
+    	android:layout_marginLeft="@dimen/inner"
+    	android:layout_marginRight="@dimen/inner"
+       	android:layout_weight="1"
+        android:background="@drawable/gold_btn_default_holo_light"      
+        android:text="기능3"
+         />
+    
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout  
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/inner"
+    android:layout_marginBottom="@dimen/inner"
+    android:layout_marginLeft="@dimen/inner"
+    android:layout_marginRight="@dimen/inner"
+    android:layout_weight="3"
+    >
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     	
+     	android:layout_marginTop="@dimen/inner"
+    	android:layout_marginBottom="@dimen/inner"
+    	android:layout_marginLeft="@dimen/inner"
+    	android:layout_marginRight="@dimen/inner"
+       	android:layout_weight="1"
+        android:background="@drawable/purple_btn_default_holo_light"      
+        android:text="기능4"
+         />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     	
+     	android:layout_marginTop="@dimen/inner"
+    	android:layout_marginBottom="@dimen/activity_vertical_margin"
+    	android:layout_marginLeft="@dimen/inner"
+    	android:layout_marginRight="@dimen/inner"
+       	android:layout_weight="1"
+        android:background="@drawable/blue_btn_default_holo_light"      
+        android:text="기능5"
+         />    
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
